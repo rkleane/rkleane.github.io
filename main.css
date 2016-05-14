@@ -1,0 +1,101 @@
+*
+{
+margin: 0px auto;
+}
+html, body
+{
+height: 100%;
+}
+body
+{
+background-color: #000000;
+color: #FFFFFF;
+font-family: arial;
+font-size: 150%;
+}
+
+.center
+{
+text-align: center;
+}
+
+/* general spacing */
+.hpadded
+{
+padding-left: 80px;
+padding-right: 80px;
+}
+.vpadded
+{
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+#name
+{
+padding: 40px 0; /* spacing above/below name */
+}
+
+#container
+{
+min-height: 100%;
+margin: 0 auto -70px;
+}
+
+#footer, #push
+{
+height: 60px;
+padding-top: 10px
+}
+
+a:link, a:visited, a:hover
+{
+	color: #FF6600; /* link color */
+}
+
+a:link
+{
+	text-decoration: none;
+	font-weight: normal;
+}
+a:visited
+{
+	text-decoration: none;
+	font-weight: normal;
+}
+a:hover
+{
+	text-decoration: underline;
+	font-weight: normal;
+}
+a:active
+{
+	text-decoration: bold;
+}
+
+ul {
+	display: table;
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333; /* header bar background color */
+	width: 100%;
+}
+
+li {
+	display: table-cell;
+	padding: 10px; /* vertical size of header bar */
+}
+
+li a {
+	color: white;
+	text-align: center;
+	padding: 92px 50px; /* change the second number here to make sure that the links are wide enough */
+	text-decoration: none;
+}
+
+li a:hover
+{
+	background-color: #111; /* link mouse over color */
+}
