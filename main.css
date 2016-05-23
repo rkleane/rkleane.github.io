@@ -40,12 +40,12 @@ padding: 40px 0; /* spacing above/below name */
 #container
 {
 min-height: 100%;
-margin: 0 auto -70px;
+margin: 0 auto -40px;
 }
 
 #footer, #push
 {
-height: 60px;
+height: 30px;
 padding-top: 10px
 }
 
