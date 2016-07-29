@@ -36,7 +36,7 @@ if (window.location.host == host && window.location.protocol != "https:") {
 <hr>
 <table align="center" border="0">
         <tbody><tr>
-                <td class="menuitem"><a href="index.html">Home</a></td><td class="menubull" align="center" width="20">&#8226;</td>
+                <td class="menuitem"><a href="index.html">About</a></td><td class="menubull" align="center" width="20">&#8226;</td>
                 <td class="menuitem"><a href="Research.html">Research</a></td><td class="menubull" align="center" width="20">&#8226;</td>
                 <td class="menuitem"><a href="CV.html">CV</a></td><td class="menubull" align="center" width="20">&#8226;</td>
                 <td class="menuitem"><a href="Talks.html">Talks</a></td>

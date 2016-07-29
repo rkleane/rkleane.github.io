@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="main.css">
 <link rel="icon" href="favicon.ico">
-<title>Rebecca K. Leane</title>
+<title>"Rebecca K. Leane"</title>
 <meta name="google-site-verification" content="LV4c84w06AxwPLMpsb636I0pwSW5b30ZBPeKKOfIrsE" />
 <meta name="keywords" content="Leane, Rebecca Leane, Rebecca K. Leane, Physics, Melbourne, Cambridge, Dark Matter, unimelb, Monash">
 <meta name="author" content="Rebecca K. Leane">
@@ -36,7 +36,7 @@ if (window.location.host == host && window.location.protocol != "https:") {
 <hr>
 <table align="center" border="0">
         <tbody><tr>
-                <td class="menuitem"><a href="index.html">Home</a></td><td class="menubull" align="center" width="20">&#8226;</td>
+                <td class="menuitem"><a href="index.html">About</a></td><td class="menubull" align="center" width="20">&#8226;</td>
                 <td class="menuitem"><a href="Research.html">Research</a></td><td class="menubull" align="center" width="20">&#8226;</td>
                 <td class="menuitem"><a href="CV.html">CV</a></td><td class="menubull" align="center" width="20">&#8226;</td>
                 <td class="menuitem"><a href="Talks.html">Talks</a></td>
@@ -44,9 +44,29 @@ if (window.location.host == host && window.location.protocol != "https:") {
 </tbody></table>
 <hr>
 
-<div class="center vpadded hpadded">
-Detailed CV can be found <a href="RKLeane_CV.pdf">here</a>.
-</div>
+<br><br>
+
+
+<table border="0" width="100%">
+        <tbody>
+        <tr><td class="text" height="85" valign="top">
+                PhD Candidate in Theoretical Particle Physics at CoEPP<br>
+                and the University of Melbourne.	<br><br><br><br>
+                Office 403, David Caro Building<br>
+                School of Physics, University of Melbourne<br>
+                Victoria 3010, Australia<br>
+                <td class="text" rowspan="5" align="center" valign="center" width="180"><img src="RL.jpg" width="320"></td>
+        </tr>
+
+        <tr><td class="text" height="50" valign="top">
+                <a href="mailto:rleane@physics.unimelb.edu.au">rleane@physics.unimelb.edu.au</a><br>
+                <a href="rebeccaleane.com">rebeccaleane.com</a><br>
+                <a href="https://twitter.com/RKLeane">Twitter</a>
+        </td></tr>
+</tbody></table>
+
+<br><br><hr><br>
+
 <div id="push"></div>
 </div>
 <div id="footer" class="center">
