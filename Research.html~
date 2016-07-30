@@ -53,23 +53,23 @@ if (window.location.host == host && window.location.protocol != "https:") {
         <tr>
                 <td class="section" colspan="2" height="30" valign="top" width="*"><b>Published Papers</b>
 	</td></tr>
-        <tr><td class="pub" valign="top" width="30" align="right">[1]&nbsp;</td>
+        <tr><td class="pub" valign="top" width="30" align="right">[4]&nbsp;</td>
                 <td class="pub" height="40" valign="top">
                         <a href="http://arxiv.org/pdf/1605.09382.pdf">Dark Forces in the Sky: Signals from Z' and the Dark Higgs</a>,<br>
                         N. F. Bell, Y. Cai, R. K. Leane, Accepted in JCAP. [arXiv: 1605.09382 [hep-ph]].<br> <br>
 	</td></tr>
-        <tr><td class="pub" valign="top" width="30" align="right">[2]&nbsp;</td>
+        <tr><td class="pub" valign="top" width="30" align="right">[3]&nbsp;</td>
                 <td class="pub" height="40" valign="top">
                         <a href="http://arxiv.org/pdf/1512.00476.pdf">Mono-W Dark Matter Signals at the LHC: Simplified Model Analysis</a>,<br>
                         N. F. Bell, Y. Cai, R. K. Leane, JCAP 01 (2016) 051 [arXiv: 1512.00476 [hep-ph]].<Br> <br>
    </td></tr> 
 	</td></tr>
-        <tr><td class="pub" valign="top" width="30" align="right">[3]&nbsp;</td>
+        <tr><td class="pub" valign="top" width="30" align="right">[2]&nbsp;</td>
                 <td class="pub" height="40" valign="top">
                        <a href="http://arxiv.org/pdf/1503.07874.pdf">Dark matter at the LHC: Effective field theories and gauge invariance</a>,<br>
                        N. F. Bell, Y. Cai, J. B. Dent, R. K. Leane and T. J. Weiler, Phys. Rev. D92, no. 5 053008 (2015) [arXiv:1503.07874 [hep-ph]]. <br><br>
    </td></tr> 
-        <tr><td class="pub" valign="top" width="30" align="right">[4]&nbsp;</td>
+        <tr><td class="pub" valign="top" width="30" align="right">[1]&nbsp;</td>
                 <td class="pub" height="40" valign="top">
                         <a href="http://arxiv.org/pdf/1407.3001.pdf">Leptophilic dark matter with Z' interactions</a>,<br>
                       N. F. Bell, Y. Cai, R. K. Leane and A. D. Medina, Phys. Rev. D 90, no. 3, 035027 (2014) [arXiv:1407.3001 [hep-ph]].<br> <br><br>
