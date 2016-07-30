@@ -44,7 +44,7 @@ if (window.location.host == host && window.location.protocol != "https:") {
 </tbody></table>
 <hr>
 <div class="center vpadded hpadded">
-<a href="http://inspirehep.net/author/profile/Rebecca.K.Leane.1">INSPIRE</a></br>
+<a href="http://inspirehep.net/author/profile/Rebecca.K.Leane.1">inSPIRE</a></br>
 <a href="https://arxiv.org/find/hep-ph/1/au:+Leane_R/0/1/0/all/0/1">arXiv</a>
 </div>
 
@@ -78,7 +78,7 @@ if (window.location.host == host && window.location.protocol != "https:") {
         <tr>
                 <td class="section" colspan="2" height="30" valign="top" width="*"><b>Working Group Reports</b>
 </td></tr> 
-        <tr><td class="pub" valign="top" width="30" align="right">[5]&nbsp;</td>
+        <tr><td class="pub" valign="top" width="30" align="right">[1]&nbsp;</td>
                 <td class="pub" height="40" valign="top">
                         <a href="http://arxiv.org/pdf/1203.1488.pdf">Les Houches 2011: Physics at TeV Colliders New Physics Working Group Report</a>,<br>
                       G. Brooijmans et al, FERMILAB-CONF-12-924-T (2012) [arXiv:1203.1488 [hep-ph]].<br><br><br> <br>
