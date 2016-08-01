@@ -60,7 +60,7 @@ if (window.location.host == host && window.location.protocol != "https:") {
 
         <tr><td class="text" height="50" valign="top">
                 <a href="mailto:rleane@physics.unimelb.edu.au">rleane@physics.unimelb.edu.au</a><br>
-                <a href="rebeccaleane.com">rebeccaleane.com</a><br>
+                <a href="http://rebeccaleane.com">rebeccaleane.com</a><br>
                 <a href="https://twitter.com/RKLeane">Twitter</a>
         </td></tr>
 </tbody></table>
