@@ -44,8 +44,8 @@ if (window.location.host == host && window.location.protocol != "https:") {
 </tbody></table>
 <hr>
 <div class="center vpadded hpadded">
-<a href="http://inspirehep.net/author/profile/Rebecca.K.Leane.1">inSPIRE</a></br>
-<a href="https://arxiv.org/find/hep-ph/1/au:+Leane_R/0/1/0/all/0/1">arXiv</a>
+<a href="http://inspirehep.net/author/profile/Rebecca.K.Leane.1" target="_blank">inSPIRE</a></br>
+<a href="https://arxiv.org/find/hep-ph/1/au:+Leane_R/0/1/0/all/0/1" target="_blank">arXiv</a>
 </div>
 
 <table width="100%" border="0">
