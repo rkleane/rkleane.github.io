@@ -27,7 +27,7 @@ text-align: center;
 .hpadded
 {
 padding-left: 70px;
-padding-right: 70px;
+padding-right: 100px;
 }
 .vpadded
 {
@@ -51,7 +51,7 @@ padding-top: 10px
 
 a:link, a:visited, a:hover
 {
-	color: #850CAF; /* link color */
+	color: #660A87; /* link color */
 }
 
 a:link
