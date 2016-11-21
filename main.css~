@@ -74,32 +74,63 @@ a:active
 	text-decoration: bold;
 }
 
-ul {
+ /*ul {
 	display: table;
 	list-style-type: none;
 	text-align: center;
 	padding: 0;
 	overflow: hidden;
-	background-color: #1C0449; /* header bar background color */
+	background-color: #1C0449;  header bar background color 
 	width: 100%;
 }
 
 li {
 	display: table-cell;
-	padding: 10px; /* vertical size of header bar */
+	padding: 10px; /* vertical size of header bar 
 }
 
 li a {
 	color: white;
 	text-align: center;
-	padding: 92px 50px; /* change the second number here to make sure that the links are wide enough */
+	padding: 92px 50px; change the second number here to make sure that the links are wide enough 
 	text-decoration: none;
 	
 }
 
 li a:hover
 {
-	/*background-color: #900C3F;  link mouse over color */
-	/*text-decoration: none;*/
+	background-color: #900C3F;  link mouse over color
+	text-decoration: none;
+}*/
+
+.social {
+    display: inline-block;
+    width: 20em;
+    /* overflow: hidden; */
+    padding: 0%;
+    text-align: left;
+    margin: 0;
+}
+
+.social li {
+    list-style: none;
+    background-repeat: no-repeat;
+    padding: 0 0 0.5em 1.1em;
+    text-indent: 0.1em;
+text-align: left; 
+}
+
+.social li a {
+    padding: 0 0 0.5em 1.4em;
+text-align: left; 
+}
+
+
+.social li[data-type="twitter"] {
+    Background-image: url(twitter3.png);
+}
+
+.social li[data-type="mail"] {
+    Background-image: url(mail4.png);
 }
 
