@@ -99,7 +99,7 @@ li a {
 
 li a:hover
 {
-	background-color: #900C3F;  link mouse over color
-	text-decoration: none;
+	/*background-color: #900C3F;  link mouse over color */
+	/*text-decoration: none;*/
 }
 
