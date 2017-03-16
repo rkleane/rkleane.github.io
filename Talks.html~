@@ -181,7 +181,7 @@ if (window.location.host == host && window.location.protocol != "https:") {
 </div>
 <hr>
 <div id="footer" class="center">
-	<i>Last updated March 2017 by RKL</i>
+	<i>Last updated 16 November 2016 by RKL</i>
 </div>
 </body>
 </html>

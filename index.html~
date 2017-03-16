@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="main.css">
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="favicon2.ico">
 <title>Rebecca K. Leane</title>
 <meta name="google-site-verification" content="LV4c84w06AxwPLMpsb636I0pwSW5b30ZBPeKKOfIrsE" />
 <meta name="keywords" content="Leane, Rebecca Leane, Rebecca K. Leane, Physics, Melbourne, Cambridge, Dark Matter, unimelb, Monash">
@@ -50,12 +50,12 @@ if (window.location.host == host && window.location.protocol != "https:") {
 
 <table border="0" width="100%">
         <tbody>
-        <tr><td class="text" height="85" valign="top">
+        <tr><td class="text" height="85" valign="top"><br>
                 PhD Candidate in Theoretical Particle Physics at CoEPP<br>
-                and the University of Melbourne.	<br><br><br><br>
-                Office 403, David Caro Building<br>
-                School of Physics, University of Melbourne<br>
-                Victoria 3010, Australia<br>
+                and the University of Melbourne.<br>	<br><br><br><br>
+
+From September 2017, I will be a postdoc in the <br> Center for Theoretical Physics at MIT.
+<br><br><br>
                 <td class="text" rowspan="5" align="center" valign="center" width="180"><img src="RL.jpg" width="320"></td>
         </tr>
 
@@ -63,11 +63,10 @@ if (window.location.host == host && window.location.protocol != "https:") {
 
   <ul class="social">
                 <li data-type="mail">
-                    <a class="link" href="mailto:rleane@physics.unimelb.edu.au" target="_blank">
-                    rleane@physics.unimelb.edu.au
+                    <a class="link" href="mailto:rebecca.leane@gmail.com" target="_blank">
+                    rebecca.leane@gmail.com
                     </a>
                 </li>
-<br>
                 <li data-type="twitter">
                     <a class="link" href="https://twitter.com/RKLeane" target="_blank">
                     @RKLeane
