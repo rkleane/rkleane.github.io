@@ -57,7 +57,7 @@ if (window.location.host == host && window.location.protocol != "https:") {
 
         <tr><td class="pub" valign="top" width="30" align="right">21.&nbsp;&nbsp;</td>
                 <td class="pub" height="40" valign="top">
-	Phenomenology of Particle Dark Matter<br>
+	<a href="Talk_slides/RKLeane_Completion.pdf" target="_blank">Phenomenology of Particle Dark Matter</a><br>
                         <i>PhD Completion Seminar, University of Melbourne, Australia. March 2017 </i><br>
         </td></tr>
 
@@ -181,7 +181,7 @@ if (window.location.host == host && window.location.protocol != "https:") {
 </div>
 <hr>
 <div id="footer" class="center">
-	<i>Last updated 16 November 2016 by RKL</i>
+	<i>Last updated March 2017 by RKL</i>
 </div>
 </body>
 </html>
