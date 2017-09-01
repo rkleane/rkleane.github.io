@@ -1,9 +1,0 @@
-0. Edit files here
-1. Run python build.py
-2. Stage files for committing:
-  a. One at a time: git add <fname>
-  b. All files: git add --all
-3. (Can be done at any time) Check status: git status
-4. Commit the files: git commit -m "added a feature, fixed an error in foo"
-5. Push master branch up to github: git push origin master
-6. Stare at pretty wobsite lots.
