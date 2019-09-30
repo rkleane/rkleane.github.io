@@ -1,14 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="main.css">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>Rebecca K. Leane</title>
+	<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/slideshow.js"></script>
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<script type="text/javascript" src="js/Arial.font.js"></script>
+	<script type="text/javascript">
+		Cufon.replace('h1,h2,h3,h4,h5,#menu,#copy,.blog-date');
+	</script>
+	<script type="text/javascript" src="js/fancyzoom.min.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			$('div.photo a').fancyZoom({directory: 'images/zoom', scaleImg: true, closeOnClick: true});
+		});
+	</script>
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
 <link rel="icon" href="favicon2.ico">
-<title>Rebecca K. Leane</title>
 <meta name="google-site-verification" content="LV4c84w06AxwPLMpsb636I0pwSW5b30ZBPeKKOfIrsE" />
-<meta name="keywords" content="Leane, Rebecca Leane, Rebecca K. Leane, Physics, Melbourne, Cambridge, Dark Matter, unimelb, MIT">
-<meta name="author" content="Rebecca K. Leane">
-<meta name="description" content="About Rebecca K. Leane">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -29,28 +40,93 @@ if (window.location.host == host && window.location.protocol != "https:") {
 </script>
 </head>
 <body>
-<div id="container">
-<div class="center">
-	<h1 id="name">Rebecca K. Leane</h1>
-</div>
+	<div id="bg">
+		<div class="wrap">
+			
+			<!-- logo -->
+			<h1><a href="index.html">Rebecca K. Leane</a> <br> MIT Center for Theoretical Physics</h1>
+			<!-- /logo -->
+			
+			<!-- menu -->
+			<div id="mainmenu">
+				<ul id="menu">
+					<li><a class="current" href="index.html">Home</a></li>
+					<li><a href="research.html">Research</a>
+					<li><a href="CV.html">CV</a></li>
+					<li><a href="talks.html">Talks</a></li>
+					<li><a href="travel.html">Travel</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<!-- /menu -->
+			
+			<!-- pitch -->
+			<div id="pitch">
+				<div id="slideshow">
 
-<hr>
-<table align="center" border="0">
-        <tbody><tr>
-                <td class="menuitem"><a href="index.html">Home</a></td><td class="menubull" align="center" width="30">&#8226;</td>
-                <td class="menuitem"><a href="Research.html">Research</a></td><td class="menubull" align="center" width="30">&#8226;</td>
-                <td class="menuitem"><a href="CV.html"><b>CV</b></a></td><td class="menubull" align="center" width="30">&#8226;</td>
-                <td class="menuitem"><a href="Talks.html">Talks</a></td><td class="menubull" align="center" width="30">&#8226;</td>
-                <td class="menuitem"><a href="Travel.html">Travel</a></td><td class="menubull" align="center" width="30">&#8226;</td>
-                <td class="menuitem"><a href="About.html">About</a></td>
+					<!-- 1st frame -->
+					<div class="active">
 
-        </tr>
-</tbody></table>
-<hr>
-<br>
+						<img src="images/neut.png" alt=""  width="100%"/>
+						<div class="overlay transparent">
+							<h2>Dark Interactions in Neutron Stars</h2>
+
+						
+						</div>
+						<p class="arrow"><a href="#"></a></p>
+					</div>
+					<!-- /1st frame -->
+
+					
+					<!-- 2nd frame -->
+					<div>
+						<img src="images/sun2.png" alt="" width="100%"/>
+						<div class="overlay transparent">
+							<h2>New Physics Searches with the Sun</h2>
+
+
+							
+						</div>
+						<p class="arrow"><a href="#"></a></p>
+					</div>
+					<!-- /2nd frame -->
+					
+					
+					<!-- 3rd frame -->
+					<div>
+						<img src="images/fermi3.png" alt="" width="100%" />
+						<div class="overlay transparent">
+							<h2>Galactic Center GeV Excess</h2>
+							
+						</div>
+						<p class="arrow"><a href="#"></a></p>
+					</div>
+					<!-- 3rd frame -->
+
+
+					<!-- 4th frame -->
+					<div>
+
+						<img src="images/modelb2.png" alt="" width="100%" />
+						<div class="overlayleft transparent">
+							<h2>Dark Matter Model Building</h2>								
+						</div>
+						<p class="arrow"><a href="#"></a></p>
+					</div>
+					<!-- /4th frame -->
+
+					
+				</div>
+			</div>
+			<!-- /pitch -->
+
+			<!-- main -->
+			<div id="main">
+
 <div class="center vpadded hpadded">
-Detailed PDF version can be found <a href="RKLeane_CV.pdf" target="_blank">here</a>.
+<u><a href="RKLeane_CV.pdf" target="_blank">Detailed CV available: pdf</a></u>.
 </div>
+<br><br>
 
 <table width="100%" border="0">
         <tbody>
@@ -63,7 +139,7 @@ Detailed PDF version can be found <a href="RKLeane_CV.pdf" target="_blank">here<
         <tr>
                 <td class="section" colspan="2" height="40" valign="top" width="*"><b>Academic Appointments</b>
 	</td></tr>
-        <tr><td class="pub" valign="top" width="160" align="right"><a href="http://www.mit.edu/" target="_blank"> &nbsp; <img src="MIT_logo.png" width="90"></a>&nbsp; &nbsp;</td>
+        <tr><td class="pub" valign="top" width="160" align="right"><a href="http://www.mit.edu/" target="_blank"> &nbsp; <img src="images/MIT_logo.png" width="90"></a>&nbsp; &nbsp;</td>
                 <td class="pub" height="40" valign="top"> 
                        <b> Massachusetts Institute of Technology</b> &nbsp; &nbsp; 2017 - Present<br>
 <a href="http://www-ctp.mit.edu/" target="_blank">MIT Center for Theoretical Physics</a><br>
@@ -92,7 +168,7 @@ Postdoctoral Research Associate
         <tr>
                 <td class="section" colspan="2" height="40" valign="top" width="*"><b>Education</b>
 	</td></tr>
-        <tr><td class="pub" valign="top" width="160" align="right"><a href="http://www.unimelb.edu.au/" target="_blank"> &nbsp; <img src="unimelb_logo.png" width="85"></a>&nbsp; &nbsp;</td>
+        <tr><td class="pub" valign="top" width="160" align="right"><a href="http://www.unimelb.edu.au/" target="_blank"> &nbsp; <img src="images/unimelb_logo.png" width="85"></a>&nbsp; &nbsp;</td>
                 <td class="pub" height="40" valign="top"> 
                        <b> University of Melbourne</b> &nbsp; &nbsp; 2013 - 2017<br>
 <a href="http://www.coepp.org.au/" target="_blank">Centre of Excellence for Particle Physics at the Terascale (CoEPP)</a><br>
@@ -100,7 +176,7 @@ Ph.D. in Physics, <i>Phenomenology of Particle Dark Matter</i><br>
 Thesis Advisor: A/Prof. Nicole Bell<br><br>
 	</td></tr>
 
-        <tr><td class="pub" valign="top" width="30" align="right"> <a href="https://www.cam.ac.uk/" target="_blank"> &nbsp; <img src="University-of-Cambridge-Shield.png" width="60"> </a> &nbsp; &nbsp; &nbsp; </td>
+        <tr><td class="pub" valign="top" width="30" align="right"> <a href="https://www.cam.ac.uk/" target="_blank"> &nbsp; <img src="images/University-of-Cambridge-Shield.png" width="60"> </a> &nbsp; &nbsp; &nbsp; </td>
                 <td class="pub" height="40" valign="top">
 <b>University of Cambridge</b>  &nbsp; &nbsp;2012 - 2013<br>
 <a href="http://www.damtp.cam.ac.uk/" target="_blank">Department of Applied Mathematics and Theoretical Physics (DAMTP)</a> <br>
@@ -109,7 +185,7 @@ Essay Advisor: Prof. Ben Allanach<br><br>
 
 	</td></tr>
 
-        <tr><td class="pub" valign="top" width="30" align="right"><a href="http://www.monash.edu/" target="_blank">&nbsp; <img src="Monash-shield.png" width="65"> </a> &nbsp;  &nbsp;</td>
+        <tr><td class="pub" valign="top" width="30" align="right"><a href="http://www.monash.edu/" target="_blank">&nbsp; <img src="images/Monash-shield.png" width="65"> </a> &nbsp;  &nbsp;</td>
                 <td class="pub" height="40" valign="top">
                         <b>Monash University</b> &nbsp; &nbsp;2008 - 2011<br>
 Bachelor of Science Advanced with Honours <br>
@@ -288,13 +364,63 @@ US viewers can preview parts of the series on the <a href="http://www.pbs.org/pr
 </tbody>
 </table>
 <br><br>
+		</div>
 
-<div id="push"></div>
-</div>
-<hr>
-<div id="footer" class="center">
-	<i>Last updated Sep 2019 by RKL</i>
-</div>
+			<!-- side -->
+			<div id="side">
+
+				
+                Postdoctoral Researcher in the Center for Theoretical Physics
+                at MIT.<br>	<br><br><br>
+
+Center for Theoretical Physics<br> 
+Massachusetts Institute of Technology<br>
+77 Massachusetts Ave, 6C-405<br>
+Cambridge, MA 02139, USA
 <br>
+<br><br><br>
+
+                    <a class="link" href="https://www.twitter.com/RKLeane" target="_blank">
+                    <img src="twitter3.png" width="7%">  &nbsp @RKLeane
+                    </a>
+<br><br>
+
+                    <a class="link" href="mailto:rleane@mit.edu" target="_blank">
+                    <img src="mail4.png" width="6%"> &nbsp rleane@mit.edu
+                    </a>
+
+<br><br><br><br>
+				<div class="news">
+					<img src="images/MIT_logo2.png" width="95%" />
+				</div>
+		<br>		
+
+			</div>
+			<!-- /side -->
+
+</div>
+			
+		<!-- footer -->
+		<div id="footer">
+			<div id="footerbg">
+				<div class="wrap">
+				
+					<!-- footer links -->
+					<p id="footer_menu">
+
+						
+						
+					</p>
+					<!-- /footer links -->
+					
+					<p id="copy">Rebecca K. Leane <span>MIT Center for Theoretical Physics </span></p>
+					
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!-- /footer -->
+		
+	</div>
 </body>
 </html>
