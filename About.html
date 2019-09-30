@@ -1,18 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="main.css">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>Rebecca K. Leane</title>
+	<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/slideshow.js"></script>
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<script type="text/javascript" src="js/Arial.font.js"></script>
+	<script type="text/javascript">
+		Cufon.replace('h1,h2,h3,h4,h5,#menu,#copy,.blog-date');
+	</script>
+	<script type="text/javascript" src="js/fancyzoom.min.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			$('div.photo a').fancyZoom({directory: 'images/zoom', scaleImg: true, closeOnClick: true});
+		});
+	</script>
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
 <link rel="icon" href="favicon2.ico">
-<title>Rebecca K. Leane</title>
 <meta name="google-site-verification" content="LV4c84w06AxwPLMpsb636I0pwSW5b30ZBPeKKOfIrsE" />
-<meta name="keywords" content="Leane, Rebecca Leane, Rebecca K. Leane, Physics, Melbourne, Cambridge, Dark Matter, unimelb, MIT">
-<meta name="author" content="Rebecca K. Leane">
-<meta name="description" content="About Rebecca K. Leane">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<style type="text/css"> p.space {line-height:150%;} </style>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -31,76 +40,167 @@ if (window.location.host == host && window.location.protocol != "https:") {
 </script>
 </head>
 <body>
-<div id="container">
-<div class="center">
-	<h1 id="name">Rebecca K. Leane</h1>
-</div>
+	<div id="bg">
+		<div class="wrap">
+			
+			<!-- logo -->
+			<h1><a href="index.html">Rebecca K. Leane</a> <br> MIT Center for Theoretical Physics</h1>
+			<!-- /logo -->
+			
+			<!-- menu -->
+			<div id="mainmenu">
+				<ul id="menu">
+					<li><a class="current" href="index.html"><b>Home</b></a></li>
+					<li><a href="research.html">Research</a>
+					<li><a href="CV.html">CV</a></li>
+					<li><a href="talks.html">Talks</a></li>
+					<li><a href="travel.html">Travel</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<!-- /menu -->
+			
+			<!-- pitch -->
+			<div id="pitch">
+				<div id="slideshow">
 
-<hr>
-<table align="center" border="0">
-        <tbody><tr>
-                <td class="menuitem"><a href="index.html">Home</a></td><td class="menubull" align="center" width="30">&#8226;</td>
-                <td class="menuitem"><a href="Research.html">Research</a></td><td class="menubull" align="center" width="30">&#8226;</td>
-                <td class="menuitem"><a href="CV.html">CV</a></td><td class="menubull" align="center" width="30">&#8226;</td>
-                <td class="menuitem"><a href="Talks.html">Talks</a></td><td class="menubull" align="center" width="30">&#8226;</td>
-                <td class="menuitem"><a href="Travel.html">Travel</a></td><td class="menubull" align="center" width="30">&#8226;</td>
-                <td class="menuitem"><a href="About.html"><b>About</b></a></td>
+					<!-- 1st frame -->
+					<div>
 
-        </tr>
-</tbody></table>
-<hr>
+						<img src="images/neut.png" alt="" width="100%"/>
+						<div class="overlay transparent">
+							<h2>Dark Interactions in Neutron Stars</h2>
 
-<br><br>
-<table border="0" cellpadding="10"  width="100%">
+						
+						</div>
+						<p class="arrow"><a href="#"></a></p>
+					</div>
+					<!-- /1st frame -->
+
+					
+					<!-- 2nd frame -->
+					<div class="active">
+						<img src="images/sun2.png" alt="" width="100%"/>
+						<div class="overlay transparent">
+							<h2>New Physics Searches with the Sun</h2>
+
+
+							
+						</div>
+						<p class="arrow"><a href="#"></a></p>
+					</div>
+					<!-- /2nd frame -->
+					
+					
+					<!-- 3rd frame -->
+					<div>
+						<img src="images/fermi3.png" alt="" width="100%" />
+						<div class="overlay transparent">
+							<h2>Galactic Center GeV Excess</h2>
+							
+						</div>
+						<p class="arrow"><a href="#"></a></p>
+					</div>
+					<!-- 3rd frame -->
+
+
+					<!-- 4th frame -->
+					<div>
+
+						<img src="images/modelb2.png" alt="" width="100%" />
+						<div class="overlayleft transparent">
+							<h2>Dark Matter Model Building</h2>								
+						</div>
+						<p class="arrow"><a href="#"></a></p>
+					</div>
+					<!-- /4th frame -->					
+					
+
+
+					
+				</div>
+			</div>
+			<!-- /pitch -->
+			
+			<!-- main -->
+			<div id="main">
+			<table border="0" width="100%">
         <tbody>
-        <tr><td class="text"  valign="top">
-<p class="space">
+        <tr><td class="text" height="100%" valign="top" width="50%"><br>
 
-                I completed my undergraduate degree at Monash University, majoring in physics and mathematics. In my final undergraduate year, I designed an interface for dark matter software packages as part of my bachelor thesis with A/Prof Csaba Balazs. This involved determining a generic way to perform theoretical dark matter calculations and connect them to experimental observables. <br><br>
-In 2012 I moved to the UK to complete the Master of Advanced Study in Mathematics (Part III of the Mathematical Tripos) at the University of Cambridge. It was quite an experience being exposed to such a range of interesting and complex material while living in the beautiful historic town of Cambridge.<br><br></p>
-                <td class="text" rowspan="5" align="center" valign="center" width="180"><img src="graduation.png" width="380"><i>University of Cambridge graduation in Senate House, July 2013</i></td>
+				<h4>About</h4><br>
+I'm a researcher in theoretical particle physics and astroparticle physics at MIT. <br><br>
+
+My main research focus is on exposing the nature of dark matter.<br><br>
+
+Currently, I particularly enjoy thinking about new ways that astrophysical systems can be exploited to look for new particles, including dark matter or other Beyond the Standard Model physics.<br><br>
+
+Explore my site to find out more! :)
+
+                <td class="text" rowspan="5" align="right" valign="center"><img src="images/RL2.jpg" width="90%"></td>
         </tr>
 
+      
 </tbody></table>
+		
+			</div>
+			<!-- /main -->
 
-<p class="space">
 
-In 2013 I joined the theoretical particle physics group at the University of Melbourne (and CoEPP), with A/Prof Nicole Bell as my advisor. My PhD research focused on dark matter phenomenology, in collider and astrophysical contexts. As part of my PhD I also enjoyed working as a visiting researcher in the United States, at Vanderbilt University with Prof. Tom Weiler in 2015, and at the Ohio State University (CCAPP) with Prof. John Beacom in 2016. Being able to travel and exchange ideas with people around the world is one of my favorite things about being a physicist. </p>
+			
+			<!-- side -->
+			<div id="side">
+
+				
+                Postdoctoral Researcher in the Center for Theoretical Physics
+                at MIT.<br>	<br><br><br>
+
+Center for Theoretical Physics<br> 
+Massachusetts Institute of Technology<br>
+77 Massachusetts Ave, 6C-405<br>
+Cambridge, MA 02139, USA
 <br>
-<table border="0" cellpadding="10"  width="100%">
-        <tbody>
-        <tr>
-<td class="text" rowspan="5" align="center" valign="center" width="180"><img src="susy.png" width="380"><i>SUSY conference hike group at Lake Tahoe CA,<br> August 2015</i></td>
-<td class="text" height="85" valign="top">
-
-<p class="space">
-<br>
-During my PhD, in addition to research I was also employed in teaching and outreach activities. From mid 2014 to mid 2015, I worked on an international science documentary series, titled 'Uranium: Twisting the Dragon's Tail', with Emmy Award winning producer Sonya Pemberton and writer Wain Faimeri. I had a major role in explaining science content and developing the script for the series. It was a fantastic experience working with people in the film industry with such a different background, as well as seeing the science from another perspective. The series has been recognized through several science communication and film awards.<br> </tr>  
-        </tr>
-
-</tbody></table>
-
-
-
-<br>
-<table border="0" cellpadding="10"  width="100%">
-        <tbody>
-        <tr><td class="text" height="85" valign="top">
-<p class="space">
-               <br><br> In 2017, I moved to Cambridge (again!) --- this time in Massachusetts, USA. I am now a postdoc in the Center for Theoretical Physics at MIT.<br><br>
-
-In my spare time, I enjoy training for track and field. Since 2014, I have competed each summer in the AV Shield Track and Field Competition (sprints, jumps, throws). I also enjoy powerlifting, trap shooting, and getting creative with baking.<br><br></p>
-                <td class="text" rowspan="5" align="center" valign="center" width="180"><img src="100m.png" width="320"><i>Competing in the 100m sprint (middle) at AV Shield, November 2016</i></td>
-        </tr>
-
-</tbody></table>
 <br><br><br>
-<div id="push"></div>
-</div>
-<hr>
-<div id="footer" class="center">
-	<i>Last updated Sep 2019 by RKL</i>
-</div>
-<br>
+
+                    <a class="link" href="https://www.twitter.com/RKLeane" target="_blank">
+                    <img src="twitter3.png" width="7%">  &nbsp @RKLeane
+                    </a>
+<br><br>
+
+                    <a class="link" href="mailto:rleane@mit.edu" target="_blank">
+                    <img src="mail4.png" width="6%"> &nbsp rleane@mit.edu
+                    </a>
+
+<br><br><br><br>
+				<div class="news">
+					<img src="images/MIT_logo2.png" width="95%" />
+				</div>
+		<br>		
+
+			</div>
+			<!-- /side -->
+		</div>
+			
+		<!-- footer -->
+		<div id="footer">
+			<div id="footerbg">
+				<div class="wrap">
+				
+					<!-- footer links -->
+					<p id="footer_menu">
+
+						
+					</p>
+					<!-- /footer links -->
+					
+					<p id="copy">Rebecca K. Leane <span>MIT Center for Theoretical Physics </span></p>
+					
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!-- /footer -->
+		
+	</div>
 </body>
 </html>
